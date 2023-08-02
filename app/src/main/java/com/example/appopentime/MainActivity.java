@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int inte = 0;
+        int inte = 1;
 
 
         textView = findViewById(R.id.tvdisplay);

@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.tvdisplay);
         sharedPreferences = getSharedPreferences("data",MODE_PRIVATE);
-        String out = sharedPreferences.getString("name","Default value");
+
+        String out = sharedPreferences.getString("name","0");
         textView.setText(""+out);
 
         editor = sharedPreferences.edit();
